@@ -1,0 +1,116 @@
+.btn {
+  color: $color-white;
+  display: inline;
+}
+
+.btn--white {
+  border-radius: 25px !important;
+  font-size: 12px;
+  font-weight: 400;
+  background: $color-white;
+  border: 1px solid $color-white;
+  color: $color-black;
+  padding: 9px 25px 8px 25px;
+  margin-right: 20px;
+
+  @include breakpoint (mobile-max) {
+    padding: 8px 20px 5px 20px;
+    font-size: 10px;
+  }
+
+  @include breakpoint (portrait-mobile-max) {
+    padding: 4px 15px 3px 15px;
+    font-size: 10px;
+  }
+
+  @include breakpoint(custom-small-mobile-max) {
+    margin-right: 0px;
+    font-size: 8px;
+    margin-top: 10px;
+  }
+
+  &:hover {
+    background: transparent;
+    color: $color-white;
+  }
+}
+
+.btn--yellow {
+  font-size: 17px;
+  font-weight: 500;
+  background: $color-yellow;
+  color: $color-light-dark;
+  padding: 18px 103px 18px 104px;
+  position: absolute;
+  bottom: -25px;
+  left: 45px;
+
+  @include breakpoint(custom-small-mobile-max) {
+    margin-bottom: 28px;
+    margin-left: 20px;
+    padding: 9px 66px 9px 66px;
+  }
+}
+
+.btn--enroll {
+  border-radius: 25px !important;
+  font-size: 12px;
+  font-weight: 400;
+  font-size: 15px;
+  color: $color-white;
+  padding-right: 42px;
+  padding-left: 42px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  background: $primary-color;
+
+  &:hover {
+    background: $color-white;
+    color: $color-black;
+  }
+
+  @include breakpoint (mobile-max) {
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+
+  }
+
+  @include breakpoint (portrait-mobile-max) {
+    font-size: 9px;
+  }
+}
+
+
+.btn--whitesmoke,
+.btn--wheat {
+  border-radius: 25px !important;
+  font-size: 15px;
+  font-weight: 500;
+  background: $color-white;
+  color: $color-light-dark;
+  padding: 14px 43px 14px 43px;
+
+  @include breakpoint (mobile-max) {
+    padding: 9px 30px 9px 30px;
+    display: inline-block;
+  }
+
+  @include breakpoint (portrait-mobile-max) {
+    padding: 8px 25px 8px 25px;
+    font-size: 12px;
+  }
+
+  @include breakpoint(custom-small-mobile-max) {
+    padding: 8px 25px 8px 25px;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  &:hover {
+    background: transparent;
+    color: $color-white;
+  }
+}

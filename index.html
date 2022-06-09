@@ -1,0 +1,757 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xd practical</title>
+  <!-- link tags -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    crossorigin="anonymous" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="header-top__content container">
+        <div class="header-top__left">
+          <a class="header-top-info-hotline"><span class="icon-phone header-top-info-icon"></span> Support Hotline :
+            586-217-2163</a>
+          <a class="header-top-info-hotline"><span class="icon-gmail header-top-info-icon"></span>vctung@outlook.com</a>
+        </div>
+        <div class="header-top__right">
+          <a href="" class="btn btn--white">Sign Up</a>
+          <select name="language" class="header-top__select-lang" id="framework">
+            <span class="icon-arrow-down"></span>
+            <option value="1">Select Languages</option>
+            <option value="2">React</option>
+            <option value="3">Vue.js</option>
+            <option value="4">Ember.js</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light  p-0">
+      <div class="container navbar-content">
+        <a class="navbar-brand" href="#">
+          <img class="navbar-logoimg" src="images/hwlogo.png" alt="">
+          HW SCHOOL DISTRICT
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">School</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">District Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nutrition</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Education Services <span class="icon-arrow-down"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">study</a></li>
+                <li><a class="dropdown-item" href="#">asignment</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Athletics <span class="icon-arrow-down"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">other</a></li>
+                <li><a class="dropdown-item" href="#">etc</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More <span class="icon-arrow-down"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">swiming pool</a></li>
+                <li><a class="dropdown-item" href="#">playground</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <p target="_blank" href="#" class="nav-link nav-search" href="#">
+                <span class="icon-search"></span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="herobanner">
+      <div class="herobanner__image">
+        <img class="herobanner__herobannerimg" src="images/herobanner-background.png" alt="bimage" />
+      </div>
+      <div class="herobanner__content container">
+        <h1 class="herobanner__headings">
+          We are determined to
+          achieve the highest
+          standards
+        </h1>
+        <p class="herobanner__paragraph">
+          We are always availed to consult on taking your higher education to the next level so you can stay
+          competitive
+          in the global world. </p>
+        <a class="btn btn--enroll">Enroll Now <span class="icon-arrow-right"></span></a>
+      </div>
+      <div class="herobanner__student">
+        <img class="herobanner__studentimg" src="images/student.png" alt="" />
+      </div>
+    </div>
+    <section class="supritendent">
+      <div class="supritendent__image">
+        <div class="supritendent__round-shape"></div>
+        <img class="supritendent__image-businessman" src="images/professor.png" alt="">
+        <a class="btn btn--yellow">kimme vo</a>
+      </div>
+      <div class="supritendent__content">
+        <div class="supritendent__dotted-circle">
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+          <span class="supritendent__dot"></span>
+        </div>
+        <h1 class="supritendent__heading">Superintendent Image & Name</h1>
+        <p class="supritendent__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum
+        </p>
+      </div>
+    </section>
+    <section class="goal">
+      <div class="goal__mission">
+        <div class="goal__mission-image">
+          <div class="goal__mission-image-small-round"></div>
+          <div class="goal__mission-image-big-round"></div>
+          <img class="goal__mission-image-student" src="images/student-card.png" alt="">
+          <div class="goal__mission-dotted-circle">
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+            <span class="goal__mission-dot"></span>
+          </div>
+        </div>
+
+        <div class="goal__mission-content">
+
+          <h2 class="goal__mission-heading">Mission</h2>
+          <p class="goal__mission-paragraph">The Mission of Harper Woods School District is to provide a
+            nurturing educational experience with a challenging academic curriculum aligned to every
+            classroom that will challenge and prepare students for career, college and entrepreneurship
+            readiness.</p>
+          <a class="btn btn--whitesmoke" href="#">Read more</a>
+        </div>
+      </div>
+      <div class="goal__vision">
+        <div class="goal__vision-content">
+          <h2 class="goal__vision-heading">Vision</h2>
+          <p class="goal__vision-paragraph">The Mission of Harper Woods School District is to provide a
+            nurturing educational experience with a challenging academic curriculum aligned to every
+            classroom that will challenge and prepare students for career, college and entrepreneurship
+            readiness.</p>
+          <ul class="goal__vision-list">
+            <li>Ignite the potential in every student</li>
+            <li>Inspire a passion for life-long learning</li>
+            <li> Prepare students to compete in a global society</li>
+          </ul>
+          <a class="btn btn--wheat" href="#">Read more</a>
+        </div>
+        <div class="goal__vision-image">
+          <div class="goal__vision-image-small-round"></div>
+          <div class="goal__vision-image-big-round"></div>
+          <img class="goal__vision-image-student" src="images/sofa-card.png" alt="">
+          <div class="goal__vision-dotted-circle">
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+            <span class="goal__vision-dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="whyhw">
+      <h1 class="main-heading">Why HW Schools </h1>
+      <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua!</p>
+      <div class="whyhw__wrapper container">
+        <div class="whyhw__wrapper-card primary-card">
+          <div class="whyhw__wrapper-spiral">
+            <img class="whyhw__wrapper-spiral-image" src="images/spiral.png" alt="">
+          </div>
+          <h2 class="whyhw__wrapper-card-heading">Lorem Ipsum Dolar</h2>
+          <p class="whyhw__wrapper-card-paragraph">Maiores voluptas laboriosam non
+            dolorum perferendis fuga repellat
+            aut. Blanditiis quos in minus. </p>
+        </div>
+        <div class="whyhw__wrapper-card">
+          <div class="whyhw__wrapper-book">
+            <img class="whyhw__wrapper-book-image" src="images/book.png" alt="">
+          </div>
+          <h2 class="whyhw__wrapper-card-heading">Lorem Ipsum Dolar</h2>
+          <p class="whyhw__wrapper-card-paragraph">Maiores voluptas laboriosam non
+            dolorum perferendis fuga repellat
+            aut. Blanditiis quos in minus. </p>
+        </div>
+        <div class="whyhw__wrapper-card">
+          <div class="whyhw__wrapper-doc">
+            <span class="icon-spiral"></span>
+          </div>
+          <h2 class="whyhw__wrapper-card-heading">Lorem Ipsum Dolar</h2>
+          <p class="whyhw__wrapper-card-paragraph">Maiores voluptas laboriosam non
+            dolorum perferendis fuga repellat
+            aut. Blanditiis quos in minus. </p>
+        </div>
+
+        <div class="whyhw__wrapper-card">
+          <div class="whyhw__wrapper-home">
+            <span class="icon-homeicon"></span>
+          </div>
+          <h2 class="whyhw__wrapper-card-heading">Lorem Ipsum Dolar</h2>
+          <p class="whyhw__wrapper-card-paragraph">Maiores voluptas laboriosam non
+            dolorum perferendis fuga repellat
+            aut. Blanditiis quos in minus. </p>
+        </div>
+        <div class="whyhw__wrapper-card">
+          <div class="whyhw__wrapper-education">
+            <span class="icon-lorem"></span>
+          </div>
+          <h2 class="whyhw__wrapper-card-heading">Lorem Ipsum Dolar</h2>
+          <p class="whyhw__wrapper-card-paragraph">Maiores voluptas laboriosam non
+            dolorum perferendis fuga repellat
+            aut. Blanditiis quos in minus. </p>
+        </div>
+      </div>
+    </section>
+    <section class="education">
+      <h1 class="education__heading">Lorem Ipsum Dolar</h1>
+      <p class="education__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua!</p>
+      <div class="education__row container">
+        <div class="education__card">
+          <img src="images/small-boy-card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Beacon Elementary</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/looking-card.png" class="card-img-top" alt="...">
+          <div class="card-body primary-card">
+            <p class="card-text">Tyrone Elementary</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/class-cards.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">HW Middle School</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/nature-card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">HW High School</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/small-boy-card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Beacon Elementary</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/looking-card.png" class="card-img-top" alt="...">
+          <div class="card-body primary-card">
+            <p class="card-text">Tyrone Elementary</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/class-cards.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">HW Middle School</p>
+          </div>
+        </div>
+        <div class="education__card">
+          <img src="images/nature-card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">HW High School</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="education__dotted-circle">
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+        <span class="education__dot"></span>
+      </div>
+    </section>
+    <section class="testimonial container">
+      <h1 class="testimonial__heading">Testimonial </h1>
+      <p class="testimonial__paragraph">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum,
+        alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p>
+      <div class="testimonial__row">
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="te stimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+        <div class="testimonial__card">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/testimonial-student-girl.png" alt="">
+            </div>
+            <div class="col-9">
+              <h2 class="testimonial__card-heading">Harrison Phillips</h2>
+              <p class="testimonial__card-subtitle">Lorem ipsum</p>
+            </div>
+          </div>
+          <p class="testimonial__card-paragraph">Nisi cumque in necessitatibus molestiae
+            eaque excepturi ab. Laboriosam ipsam
+            voluptatem voluptatibus labore quam nihil.
+            Quasi occaecati quos ratione quia aut
+            molestiae velit et. Voluptatem id ea dicta </p>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <h2 class="info__heading">
+        For more information click the following links below
+      </h2>
+      <div class="info__content">
+        <img class="info__img" src="images/info-book.png" alt="">
+        <ul>
+          <li class="info__list">Information about school closing procedure</li>
+          <li class="info__list">Check out the New Harper Woods College and Career Institute Click for more info!!</li>
+          <li class="info__list">2020 - 2021 Student Code of Conduct Handbook</li>
+        </ul>
+      </div>
+    </section>
+    <section class="progres">
+      <h1 class="main-heading">Lorem Ipsum Dolar </h1>
+      <p class="main-paragraph">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum.
+        Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p>
+      <div class="progres__row">
+        <div class="progres__card">
+          <div class="progres__circle progres__circle-primary">
+            <div class="progres__bar">
+            </div>
+            <div class="progres__box"><span class="progres__percent"></span>
+            </div>
+          </div>
+          <h2 class="progres__card-heading">LOREM IPSUM</h2>
+          <p class="progres__card-paragraph">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore </p>
+        </div>
+        <div class="progres__card js">
+          <div class="progres__circle progres__circle-secondary">
+            <div class="progres__bar"></div>
+            <div class="progres__box"><span class="progres__percent"></span>
+            </div>
+          </div>
+          <h2 class="progres__card-heading">LOREM IPSUM</h2>
+          <p class="progres__card-paragraph">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore </p>
+        </div>
+        <div class="progres__card react">
+          <div class="progres__circle progres__circle-tertiary">
+            <div class="progres__bar"></div>
+            <div class="progres__box"><span class="progres__percent"></span>
+            </div>
+          </div>
+          <h2 class="progres__card-heading">LOREM IPSUM</h2>
+          <p class="progres__card-paragraph">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row footer">
+        <div class="col-md-3 col-sm-3 footer__logo">
+          <img class="footer__logo-image" src="images/hwlogo.png" alt="">
+          <h4 class="footer__heading"> HW SCHOOL DISTRICT</h4>
+          <ol class="footer__orderlist">
+            <li><span class="icon-location"></span>
+              1500 Treat Ave, Suite 200
+              San Francisco, CA 94110
+            </li>
+            <li><span class="icon-gmail"></span>
+              demo@hwschool.com
+            </li>
+            <li><span class="icon-phone"></span>
+              586-217-2163 (Support)
+            </li>
+          </ol>
+          <h4 class="footer__heading">Follow us</h4>
+          <ul class="footer__social">
+            <li class="footer__social-icon"><span class="icon-facebook"></span></li>
+            <li class="footer__social-icon"><span class="icon-youtube"></span></li>
+            <li class="footer__social-icon"><span class="icon-twitter"></span></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2">
+          <h4 class="footer__heading">Schools</h4>
+          <ol class="footer__orderlist">
+            <li>Beacon Elementary
+            </li>
+            <li>Tyrone Elementary</li>
+            <li>HW Middle School</li>
+            <li>HW High School</li>
+            <li>Harper Academy</li>
+          </ol>
+        </div>
+        <div class="col-md-2 col-sm-2">
+          <h4 class="footer__heading">District Info</h4>
+          <ol class="footer__orderlist">
+            <li>Home</li>
+            <li>Board of Education</li>
+          </ol>
+        </div>
+        <div class="col-md-2 col-sm-2">
+          <h4 class="footer__heading">More</h4>
+          <ol class="footer__orderlist">
+            <li>Menu</li>
+            <li>Illuminate Education</li>
+            <li>MI Star Parents</li>
+            <li>MI Star Students</li>
+            <li>MI Star Teachers</li>
+            <li>KB Compass</li>
+            <li>Atlas Rubicon Parents</li>
+            <li>Atlas Rubicon Teachers</li>
+          </ol>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <h4 class="footer__heading">Listen Now</h4>
+          <img class="footer__wood-img" src="images/footer-woods.png" alt="">
+          <h4 class="footer__heading">Transparency Reporting</h4>
+          <img class="footer__map-img" src="images/footer-map.png" alt="">
+          <ol class="footer__orderlist">
+            <li>MI School Data</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer__copyright">
+      <p class="footer__copyright-paragraph">© COPYRIGHT 2021. ​ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

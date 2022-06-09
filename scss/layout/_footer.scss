@@ -1,0 +1,126 @@
+footer {
+    background: $primary-color;
+    color: $color-white;
+    font-weight: 400;
+    position: relative;
+    margin-top: 44px;
+    &::before {
+        content: "";
+        position: absolute;
+        background: $color-white;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 25px;
+        border-radius: 0 0 50% 50%/0 0 100% 100%;
+    }
+}
+
+.footer {
+    padding-left: 113px;
+    padding-top: 102px;
+    padding-bottom: 110px;
+    width: 100%;
+
+    @include breakpoint (mobile-max) {
+        padding-left: 30px;
+    }
+
+    @include breakpoint (portrait-mobile-max) {
+        padding-left: 130px;
+    }
+
+    @include breakpoint(custom-small-mobile-max) {
+        padding-left: 60px;
+    }
+
+    &__logo {
+        position: relative;
+    }
+
+    &__logo-image {
+        width: 41px;
+        position: absolute;
+        top: -10px;
+        left: -35px;
+    }
+
+
+
+    &__heading {
+        font-size: 17px;
+        font-weight: 700;
+
+        &:nth-last-child(4) {
+            font-size: 16px;
+            font-weight: 900;
+        }
+
+        &:nth-child(4) {
+            font-size: 16px;
+            font-weight: 900;
+            margin-top: 30px;
+        }
+    }
+
+    &__orderlist {
+        line-height: 3;
+        list-style: none;
+        padding: 0;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__copyright {
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+    }
+
+    &__copyright-paragraph {
+        margin-bottom: 7px;
+    }
+
+    &__social {
+        padding: 0;
+        margin-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    &__social-icon {
+        border: 1px solid $color-white;
+        width: 30px;
+        padding: 7px 0 7px 0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+
+        &:first-child {
+            margin-right: 10px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 10px;
+        }
+
+    }
+
+    &__wood-img {
+        margin-top: 15px;
+        margin-bottom: 50px;
+        width: 95px;
+        height: 55px;
+    }
+
+    &__map-img {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 15px;
+        margin-top: 24px;
+
+    }
+}

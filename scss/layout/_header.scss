@@ -1,0 +1,94 @@
+.header-top {
+    background: $primary-color;
+    padding: 16px 0 12px 0;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include breakpoint (mobile-max) {
+            display: grid;
+            align-items: center;
+
+        }
+
+    }
+
+    &__right {
+
+        @include breakpoint (portrait-mobile-max) {
+            display: flex;
+            align-items: center;
+        }
+
+        @include breakpoint (custom-small-mobile-max) {
+            display: flex;
+            flex-flow: column-reverse;
+        }
+
+        @include breakpoint (mobile-max) {
+            margin-top: 6px;
+        }
+    }
+
+    &-info-hotline {
+        color: $color-light-white;
+        font-size: 12px;
+        font-family: $primary-font;
+
+        &:nth-child(2) {
+            padding-left: 35px;
+
+            @include breakpoint (mobile-max) {
+                padding-left: 0;
+                padding-top: 2px;
+            }
+        }
+
+        @include breakpoint (portrait-mobile-max) {
+            font-size: 9px;
+            margin-top: 3px;
+        }
+    }
+
+    &__select-lang {
+        border-radius: 25px;
+        font-weight: 400;
+        font-size: 12px;
+        border: 1px solid $color-white;
+        color: $color-white;
+        padding: 8px 3px 9px 9px;
+        background: transparent;
+
+        @include breakpoint (mobile-max) {
+            padding: 7px 0px 4px 12px;
+            font-size: 10px;
+        }
+
+        @include breakpoint (portrait-mobile-max) {
+            padding: 6px 5px 3px 17px;
+            font-size: 10px;
+        }
+
+        @include breakpoint(custom-small-mobile-max) {
+            padding: 4px 2px 4px 9px;
+            font-size: 8px;
+        }
+
+        &:hover {
+            background: $color-white;
+            color: $color-black;
+        }
+    }
+}
+.header-top-info-icon{
+    margin-right: 12px;
+}

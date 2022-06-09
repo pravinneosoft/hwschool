@@ -1,0 +1,66 @@
+.navbar {
+    background: $color-whitesmoke;
+
+    &-nav {
+        margin-left: auto;
+        align-items: center;
+    }
+
+    &-light &-nav .nav-link {
+        font-size: 14px;
+        color: $color-light-blue;
+        padding-right: 18px;
+        @include breakpoint (desktop-max) {
+        padding: 5px;
+        }
+    }
+
+    &-light &-brand {
+        font-size: 17px;
+        color: $color-light-blue;
+        font-weight: 900;
+
+        @include breakpoint (mobile-max) {
+            font-size: 14px;
+            margin-left: 4px;
+        }
+
+        @include breakpoint (portrait-mobile-max) {
+
+            font-size: 15px;
+        }
+
+        @include breakpoint(custom-small-mobile-max) {
+            font-size: 11px !important;
+        }
+
+        @include breakpoint (desktop-max) {
+            font-size: 15px;
+        }
+    }
+
+    &-logoimg {
+        @include breakpoint(custom-small-mobile-max) {
+            height: 33px;
+            width: 35px;
+        }
+    }
+
+    &-content {
+        padding: 2px 12px 2px 12px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.nav-search {
+    border: 1px solid $color-light-black;
+    border-radius: 16px;
+    background: $color-white;
+    padding: 6px 13px !important;
+    width: 43px;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 22px;
+    margin-bottom: auto;
+}

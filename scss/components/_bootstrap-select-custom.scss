@@ -1,0 +1,39 @@
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #7c7c7c;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: $primary-color;
+    height: 0;
+    width: 15px;
+}
+
+.carousel-indicators {
+    bottom: -90px;
+    @include breakpoint (mobile-max) {
+        
+    }
+    @include breakpoint (portrait-mobile-max) {        
+    }
+    @include breakpoint(custom-small-mobile-max) {
+        bottom: -58px;
+
+    }
+
+}
